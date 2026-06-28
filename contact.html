@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Bella's Portfolio</title>
+
+    <meta name="description"
+        content="Get in touch with Bella through email or social media.">
+
+    <meta name="keywords"
+        content="Bella, Contact, Portfolio, UiTM">
+
+    <meta name="author"
+        content="Nornabilah Mohd Kamal">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="icon" href="images/favicon.jpg">
+
+</head>
+
+<body>
+
+    <!-- ================= BACKGROUND SLIDER ================= -->
+
+    <div class="background-slider"></div>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <div class="logo">
+            <h2>Bella's Portfolio</h2>
+        </div>
+
+        <nav id="navbar">
+
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="skills.html">Skills</a>
+            <a href="experiences.html">Experiences</a>
+            <a href="education.html">Education</a>
+            <a href="contact.html" class="active">Contact</a>
+
+        </nav>
+
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <div class="social">
+
+            <a href="https://www.linkedin.com/in/nabilah-kamal-5aa1b9375/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+
+            <a href="https://facebook.com/nrnalybl"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a href="https://www.instagram.com/nrnalybl/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://github.com/nabilahmohdkamal"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+
+        </div>
+
+    </header>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact-page">
+
+        <h1>Contact <span>Me</span></h1>
+
+        <p class="contact-intro">
+            Thank you for visiting my portfolio. If you have any questions,
+            collaboration opportunities, or simply want to connect,
+            feel free to contact me through the information below.
+        </p>
+
+        <div class="contact-container">
+
+            <!-- LEFT SIDE -->
+
+            <div class="contact-info">
+
+                <!-- Email -->
+
+                <div class="contact-card"
+                    onclick="window.location.href='mailto:nawnabilah@gmail.com'">
+
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+
+                    <div class="contact-text">
+                        <h3>Email</h3>
+                        <p>nawnabilah@gmail.com</p>
+                    </div>
+
+                </div>
+
+                <!-- WhatsApp -->
+
+                <div class="contact-card"
+                    onclick="window.open('https://wa.me/60194045027','_blank')">
+
+                    <div class="contact-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+
+                    <div class="contact-text">
+                        <h3>WhatsApp</h3>
+                        <p>+60 19-4045027</p>
+                    </div>
+
+                </div>
+
+                <!-- Location -->
+
+                <div class="contact-card"
+                    onclick="window.open('https://maps.google.com/?q=Shah+Alam+Selangor','_blank')">
+
+                    <div class="contact-icon">
+                        <i class="fas fa-location-dot"></i>
+                    </div>
+
+                    <div class="contact-text">
+                        <h3>Location</h3>
+                        <p>Shah Alam, Selangor</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        <!-- RIGHT SIDE -->
+
+        <form class="contact-form"
+            action="https://formsubmit.co/nawnabilah@gmail.com"
+            method="POST">
+
+            <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                required>
+
+            <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required>
+
+            <input
+                type="text"
+                name="subject"
+                placeholder="Subject"
+                required>
+
+            <textarea
+                name="message"
+                rows="6"
+                placeholder="Write your message..."
+                required></textarea>
+
+            <!-- Optional FormSubmit Settings -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+
+            <button type="submit" class="btn">
+                Send Message
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-logo">
+        <h2>Bella's Portfolio</h2>
+    </div>
+
+    <p class="footer-text">
+        Thank you for visiting my portfolio.
+        Feel free to contact me via email or social media.
+        I look forward to hearing from you.
+    </p>
+
+    <div class="footer-social">
+
+        <a href="https://www.linkedin.com/in/nabilah-kamal-5aa1b9375/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+
+        <a href="https://facebook.com/nrnalybl"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://www.instagram.com/nrnalybl/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://github.com/nabilahmohdkamal"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+
+    </div>
+
+    <div class="footer-menu">
+
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="skills.html">Skills</a>
+        <a href="experiences.html">Experiences</a>
+        <a href="education.html">Education</a>
+        <a href="contact.html">Contact</a>
+
+    </div>
+
+    <p class="copyright">
+        © 2026 Bella's Portfolio. All Rights Reserved.
+    </p>
+
+</footer>
+
+<!-- ================= BACKGROUND SLIDER ================= -->
+
+<script>
+
+    const images = [
+        "images/bg1.jpg",
+        "images/bg2.jpg",
+        "images/bg3.jpg"
+    ];
+
+    let current = 0;
+
+    const slider = document.querySelector(".background-slider");
+
+    if (slider) {
+
+        slider.style.backgroundImage = `url(${images[current]})`;
+
+        setInterval(() => {
+
+            current = (current + 1) % images.length;
+
+            slider.style.backgroundImage = `url(${images[current]})`;
+
+        }, 4000);
+
+    }
+
+</script>
+
+<!-- ================= MOBILE MENU ================= -->
+
+<script>
+
+    const menu = document.querySelector(".menu-toggle");
+    const nav = document.querySelector("nav");
+
+    if (menu && nav) {
+
+        menu.addEventListener("click", () => {
+
+            nav.classList.toggle("active");
+
+        });
+
+    }
+
+</script>
+
+</body>
+
+</html>
